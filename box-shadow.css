@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: aquamarine;
+  margin: 40px auto;
+  box-shadow: 0px 0px 100px 0px steelblue;
+  border-radius: 3%;
+  border: solid 10px red;
+}
