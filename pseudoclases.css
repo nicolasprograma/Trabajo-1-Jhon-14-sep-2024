@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::selection {
+  background-color: yellowgreen;
+}
 .enlace {
   display: block;
   background-color: tomato;
@@ -21,4 +24,18 @@
 }
 .enlace:hover {
   background-color: pink;
+}
+p {
+  margin: 0 auto;
+  width: 70%;
+}
+p::before,
+p::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: purple;
+  display: block;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
 }
